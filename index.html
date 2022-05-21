@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Creations</title>
+  <title>My Creations</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <section id="apps">
+
+<div class="container">
+
+    <section id="app">
         <h1>Apps</h1>
         <div class="line"></div>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/EUiAtD1A9id4KrFx39pVuB7qF3DYlaGAl2CK2ryWqQI/embed"></iframe>
         <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ouZ40pXcN_fWEpA1XEPAYaQtRAQg7eKaLOs7VLjAnHk/embed"></iframe>
     </section>
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
+
+<h2>Click On The Games To Explore</h2>
+
+<h5>This games are bulid in game lab, click on the game to play</h5>
+
+<!--
+Start your code from here
+-->
+<div id="myCarousel" class="carousel slide">
+  <center>
+    <div class="carousel-inner">
+      <div class="item active">
         <a href="https://studio.code.org/projects/spritelab/ZEdFsSVLb_t6XMM8yY-BAS17tR5qnw76aSPUcXDSSng" target="_blank">
-            <img src="game.png" alt="Winnie Game">
-        </a>
+          <img src="game.png" alt="Winnie Game">
+      </a>
+      <p>Winnie Game</p>
+      </div>
+
+      <div class="item">
         <a href="https://studio.code.org/projects/playlab/enMFMl-FuNS7_Bcjg7pIaKQcTvvTFynxQJVlIc7bEPs" target="_blank">
-            <img src="game2.png" alt="Dragon Attack">
-        </a>
-    </section>
-    <section id="Chatbots">
-        <h1>Chatbots</h1>
-        <div class="line"></div>
-        <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/b8404e47-1442-40b1-a71c-62f73a0297f9">
-        </iframe>
+          <img src="game2.png" alt="Dragon Attack">
+      </a>
+      <p>Dragon Attack</p>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </center>
+</div>
+<section id="Chatbots">
+  <h1>Chatbots</h1>
+  <div class="line"></div>
+  <iframe
+allow="microphone;"
+width="350"
+height="430"
+src="https://console.dialogflow.com/api-client/demo/embedded/b8404e47-1442-40b1-a71c-62f73a0297f9">
+  </iframe>
 <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/1d69fe7c-c1d4-47bb-8750-19e714d32fc5">
+allow="microphone;"
+width="350"
+height="430"
+src="https://console.dialogflow.com/api-client/demo/embedded/1d69fe7c-c1d4-47bb-8750-19e714d32fc5">
 </iframe>
-    </section>
+</section>
+</div>
 </body>
 </html>
